@@ -9,12 +9,12 @@ public class TeamDTO {
 
     Integer teamId;
     String teamName;
-    List<Integer> teamMembersId;
+    List<UserDetailsDTO> teamMembersId;
 
     public TeamDTO(
             Integer teamId,
             String teamName,
-            List<Integer> teamMembersId
+            List<UserDetailsDTO> teamMembersId
     ){
         this.teamId = teamId;
         this.teamMembersId = teamMembersId;

@@ -48,8 +48,6 @@ public class TeamService {
                 requestEntity,
                 Boolean[].class
         );
-
-
         // Check the response
         response.getBody();
         if (!Arrays.asList(response.getBody()).contains(true)) {
